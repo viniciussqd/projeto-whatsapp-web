@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    height: 100vh;
+    width: 400px;
+}
+
+#sec1-aside {
+    display: flex;
+    background-color: #EEEEEE;
+    padding: 10px 0px 10px 15px;
+    justify-content: space-between;
+}
+
+#sec1-aside > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #cbd1d6;
+}
+
+#sec1-aside > #icons {
+    align-self: flex-end;
+}
+
+#sec1-aside > #icons > i {
+    padding-right: 25px;
+    color: #80868A;
+}
+
+#sec2-aside {
+    display: flex;
+    background-color: #9DE1FE;
+    height: 70px;
+    padding-top: 20px;
+}
+
+#div-icon {
+    padding: 0px 15px;
+}
+
+#div-icon > i {
+    background-color: white;
+    color: #9DE1FE;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#sec2-aside p {
+    color: rgb(73, 73, 73);
+    font-size: 0.95em;
+}
+
+#sec2-aside > div > #p2 {
+    font-size: 0.80em;
+    padding-top: 5px;
+}
+
+#sec2-aside > div > #p2 >  i {
+    font-size: 1.1em;
+    font-weight: 900;
+}
+
+#sec-form {
+    height: 50px;
+    background-color: #F8F8F8;
+    position: relative;
+    padding-top: 15px;
+}
+
+#sec-form .material-icons {
+    position: absolute;
+    top: 31%;
+    left: 7%; 
+    color: rgb(155, 154, 154);
+} 
+
+#sec-form input[type=text] {
+    width: 310px;
+    height: 35px;
+    border-radius: 15px;
+    border: none;
+    display: block;
+    margin: auto;
+    padding-left: 50px;
+}
+#mensagem1 {
+    background-color: #E9EBEB;
+}
+
+.mensagem img {
+    width: 50px;
+    height: 50px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    position: absolute;
+    top: 14%;
+    left: 3%;
+}
+
+#mensagem1 i {
+    color: #54C7F4;
+    font-size: 1.1em;
+    position: absolute;
+    left: -23%;
+}
+
+.contato > p {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    color: rgb(95, 95, 95);
+    font-size: 0.9em;
+}
+
+.contato > h1 {
+    position: absolute;
+     left: 19%;
+     top: 10%;
+     font-weight: normal;
+     font-size: 1.1em;
+     color: rgb(99, 97, 97);
+}
+
+.hora > p {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+    color: rgb(179, 179, 179);
+    font-size: 0.8em;
+}
+
+.mensagem {
+    height: 70px;
+    position: relative;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.103);
+}
+
+.mensagem2-3 {
+    background-color: white;
+}
+
+.contato .frase {
+    left: 19%;
+}
+
+.numero-msg {
+    position: absolute;
+    right: 4%;
+    bottom: 30%;
+    background-color: #09D261;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 0.8em;
+
+  
+}
+
+
+
+
+
+
+
